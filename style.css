@@ -1,0 +1,41 @@
+body{
+  left: 0;
+  top: 0;
+  background-image: url("./img/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  text-align: center;
+  animation:first 5s linear 0s 1;
+}
+#tx{
+  width:100px;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+.line-one{
+  width:50px;
+  transform:rotate(90deg);
+}
+.line-two{
+  width:200px;
+  margin-top: 25px;
+}
+.time p{
+  text-size:10px;
+  color: black;
+}
+  @keyframes first{
+    0%{
+       opacity:0;
+      }
+    50%{
+      opacity:0.5;
+      }
+    100%{
+      opacity:1;
+      }
+    } 
+
+  
